@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space Mono:wght@700&family=Space+Mono:wght@400;700&display=swap");
+
+.nav {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--title);
+  letter-spacing: -2px;
+
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+}
+
+.img {
+  width: 540px;
+  height: 415px;
+
+  position: absolute;
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+}
+
+.h1 {
+  font-family: Space Mono;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+
+  position: absolute;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+  color: #333333;
+}
+
+.text {
+  position: absolute;
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #333333;
+  display: flex;
+  width: 210px;
+  height: 65px;
+  font-family: Space Mono;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 740px;
+  top: 663px;
+  cursor: pointer;
+}
+
+.p {
+  position: absolute;
+  width: 130px;
+  height: 21px;
+  left: 783px;
+  top: 687px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+}
+.text {
+  position: absolute;
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+.footer {
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 577px;
+  top: 1039px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #bdbdbd;
+}
+
+.wrapper {
+  padding: 30px 30px;
+}
+
+@media screen and (min-width: 1120px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+}
